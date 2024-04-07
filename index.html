@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Tail Wind Project</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav id="head" class="relative container mx-auto p-6 ">
+        <!-- flex-container -->
+        <div class="flex items-center justify-between">
+            <!-- Logo -->
+            <div class="pt-2">
+                <img src="img/logo.svg" alt="">
+            </div>
+            <!-- Menu Items -->
+            <div class="hidden md:flex space-x-6">
+                <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
+                <a href="#" class="hover:text-darkGrayishBlue">Product</a>
+                <a href="#" class="hover:text-darkGrayishBlue">About Us</a>
+                <a href="#" class="hover:text-darkGrayishBlue">Careers</a>
+                <a href="#" class="hover:text-darkGrayishBlue">Community</a>
+            </div>
+            <!-- Button -->
+            <a href="#" class="hidden md:block p-3 pt-2 px-6 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight">
+                Get Started
+            </a>
+
+            <!-- Hamburger -->
+            <button id="menu-btn" class="hamburger md:hidden focus:outline-none ml-auto">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+
+            <!-- Mobile Menu -->
+            <div class="md:hidden">
+                <div class="absolute flex-col items-center hidden py-8 space-y-6 font-bold bg-white  left-6 right-6 drop-shadow-md top-24" id="menu">
+                    <a href="#">Pricing</a>
+                    <a href="#">Product</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Community</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section  -->
+    <section id="hero">
+        <!-- Flex-container -->
+        <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0"
+        >
+            <!-- Left item -->
+            <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+                <h1 class="  text-4xl font-bold-text-center md:text-left md:text-5xl">
+                    Bring everyone together to build better products
+                </h1>
+                <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
+                    Manage ameks it simple for software teams play day to day tasks
+                    While  keeping the larger team goals in view
+                </p>
+                <a href="#" class="text-center md:w-1/2 p-3 pt-2 px-6 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight">
+                    Get Started
+                </a>
+            </div>
+
+            <!-- Image -->
+            <div>
+                <img src="img/illustration-intro.svg" alt="">
+            </div>
+    
+        </div>
+    </section>
+
+    <section id="features" class="mb-32">
+        <!-- Flex container -->
+        <div class="container flex flex-col px-4 mx-auto mt-10 space-y-10 md:space-y-0 md:flex-row">
+            <!-- What Featuer Section -->
+            <div class="flex flex-col space-y-12 md:w-1/2">
+                <h2 class="max-w-md text-4xl font-bold text-center md:text-left">
+                    What's different about Manage?
+                </h2>
+                <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
+                    Manage provides all the functionaltiy your team needs, without the complexity. Our software is tailor-made for mdoern digital product teams.
+                </p>
+
+            </div>
+            <!-- Numbered List -->
+            <div class="flex flex-col space-y-8 md:w-1/2">
+                <!-- List Item 1 -->
+                <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                    <!-- Heading -->
+                    <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
+                        <div class="flex items-center space-x-2">
+                            <div class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed">
+                                01
+                            </div>
+                            <h3 class="text-base font-bold md:mb-4 md:hidden">
+                                Track company-wide prgress
+                            </h3>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="hiddem mb-4 text-lg font-bold md:block">
+                            Track comapny-wide progress
+                        </h3>
+                        <p class="text-darkGrayishBlue">
+                            See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger pciture again.
+                        </p>
+                    </div>
+                </div>
+
+                 <!-- List Item 2 -->
+                 <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                    <!-- Heading -->
+                    <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
+                        <div class="flex items-center space-x-2">
+                            <div class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed">
+                                02
+                            </div>
+                            <h3 class="text-base font-bold md:mb-4 md:hidden">
+                                Track company-wide process
+                            </h3>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="hiddem mb-4 text-lg font-bold md:block">
+                            Track comapny-wide process
+                        </h3>
+                        <p class="text-darkGrayishBlue">
+                            See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger pciture again.
+                        </p>
+                    </div>
+                </div>
+
+                 <!-- List Item 3 -->
+                 <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                    <!-- Heading -->
+                    <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
+                        <div class="flex items-center space-x-2">
+                            <div class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed">
+                                03
+                            </div>
+                            <h3 class="text-base font-bold md:mb-4 md:hidden">
+                                Track company-wide payment
+                            </h3>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="hiddem mb-4 text-lg font-bold md:block">
+                            Track comapny-wide payment
+                        </h3>
+                        <p class="text-darkGrayishBlue">
+                            See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger pciture again.
+                        </p>
+                    </div>
+                </div>
+ 
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" >
+        <!-- Container to heading and testimonaials blocks-->
+        <div class="max-w-6xl px-5 mx-auto mt-32 text-center mb-32">
+            <!-- Headings -->
+            <h2 class="text-4xl font-bold text-center mb-24">
+                What's Different About Manage?
+            </h2>
+            <!-- Testimonials Container -->
+            <div class="flex flex-col mt-23 md:flex-row md:space-x-8">
+                <!-- Testimonial 1 -->
+                <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3 mb-12">
+                    <img src="img/avatar-anisha.png" alt="" class="w-16 -mt-14">
+                    <h5 class="text-lg font-bold">Anisha Li</h5>
+                    <p class="text-sm text-darkGrayishBlue">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam repellat error iure possimus laudantium, rerum neque at, libero, molestias soluta alias eveniet voluptate quo odit blanditiis unde! Amet eius modi at voluptatibus reiciendis quibusdam tempora accusamus rem ex aliquid aperiam expedita, hic placeat perferendis veritatis adipisci facere. Officiis, iusto laudantium.
+                    </p>
+                </div>
+
+                 <!-- Testimonial 2 -->
+                 <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3 mb-12">
+                    <img src="img/avatar-ali.png" alt="" class="w-16 -mt-14">
+                    <h5 class="text-lg font-bold">Ali</h5>
+                    <p class="text-sm text-darkGrayishBlue">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam repellat error iure possimus laudantium, rerum neque at, libero, molestias soluta alias eveniet voluptate quo odit blanditiis unde! Amet eius modi at voluptatibus reiciendis quibusdam tempora accusamus rem ex aliquid aperiam expedita, hic placeat perferendis veritatis adipisci facere. Officiis, iusto laudantium.
+                    </p>
+                </div>
+
+                 <!-- Testimonial 3 -->
+                 <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3 mb-12">
+                    <img src="img/avatar-richard.png" alt="" class="w-16 -mt-14">
+                    <h5 class="text-lg font-bold">Richard</h5>
+                    <p class="text-sm text-darkGrayishBlue">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam repellat error iure possimus laudantium, rerum neque at, libero, molestias soluta alias eveniet voluptate quo odit blanditiis unde! Amet eius modi at voluptatibus reiciendis quibusdam tempora accusamus rem ex aliquid aperiam expedita, hic placeat perferendis veritatis adipisci facere. Officiis, iusto laudantium.
+                    </p>
+                </div>
+            </div>
+            <a href="#" class="md:w-1/2 mx-auto md:block p-3 pt-2 px-6 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight text-2xl sm:text-lg">
+                Get Started
+            </a>
+
+        </div>
+
+        
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="bg-brightRed">
+        <!-- Flex container needed here -->
+        <div class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0">
+            <!-- Heading -->
+            <h2 class="text-2xl font-bold leading-tight text-center text-white md:text-4xl md:max-w-xl md:text-left">
+                Simplify how your teams works together
+            </h2>
+            <!-- button -->
+            <div>
+                <a href="#"
+                class="p-3 px-6 pt-2 text-black bg-white rounded-full shadown-2xl text-xl md:text-2xl hover:bg-gray-300 sm:text-lg"
+                >
+                Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-veryDarkBlue mb-32">
+        <!-- flex container -->
+        <div class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
+            <!-- Logo and social links container 
+            -->
+            <div class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
+                <div class="mx-auto my-6 text-center text-white md:hidden">
+                    Copyright &copy; 2024, All Rights Reserved
+                </div>
+                <!-- Logo -->
+                <div>
+                    <img src="img/logo-white.svg" class="h-8" alt="">
+                </div>
+                <!-- Social Links Container -->
+                <div class="flex justify-center space-x-4">
+                    <!-- Link1 -->
+                    <a href="#">
+                        <img src="img/icon-facebook.svg" class="h-8"  alt="">
+                    </a>
+                    <!-- Link2 -->
+                    <a href="#">
+                        <img src="img/icon-instagram.svg" class="h-8"  alt="">
+                    </a>
+                    <!-- Link3-->
+                    <a href="#">
+                        <img src="img/icon-pinterest.svg" class="h-8"  alt="">
+                    </a>
+                    <!-- Link4 -->
+                    <a href="#">
+                        <img src="img/icon-twitter.svg" class="h-8"  alt="">
+                    </a>
+                    <!-- Link5 -->
+                    <a href="#">
+                        <img src="img/icon-youtube.svg" class="h-8"  alt="">
+                    </a>
+                </div>
+            </div>
+            <!-- List Container -->
+            <div class="flex justify-around space-x-32">
+                <div class="flex flex-col space-y-3 text-white  text-xl  md:text-xl items-center md:items-start">
+                    <a href="#" class="hover:text-gray-300 focus:text-gray-300">Product</a>
+                    <a href="#" class="hover:text-gray-300 focus:text-gray-300">Price</a>
+                    <a href="#" class="hover:text-gray-300 focus:text-gray-300">Contact</a>
+                    <a href="#" class="hover:text-gray-300 focus:text-gray-300">Sales</a>
+                </div>
+                <div class="flex flex-col space-y-3 text-white sm:items-center text-xl  md:text-xl md:items-start">
+                    <a href="#" class="hover:text-gray-300 focus:text-gray-300">Home</a>
+                    <a href="#" class="hover:text-gray-300 focus:text-gray-300">Community</a>
+                    <a href="#" class="hover:text-gray-300 focus:text-gray-300">Privacy Policy</a>
+                    <a href="#" class="hover:text-gray-300 focus:text-gray-300">About</a>
+                </div>
+            </div>
+            <!-- Input Container -->
+            <div class="flex flex-col justify-between">
+                <form>
+                    <div class="flex space-x-3 mt-8">
+                        <input type="text" class="flex-1 rounded-full px-4 text-black-300 focus:outline-none" placeholder="Got Some Idea to Pour In!">
+                        <button class="px-6 py-2 text-white rounded-full bg-brightRed hover:bg-brightRedLight focus:outline-none">
+                            Go!
+                        </button>
+                    </div>
+                </form>
+                <div class="hidden text-white md:block mb-2">
+                    <div class="text-center">Copyright &copy; 2022, All Rights Reserved</div>
+                </div>
+                
+            </div>    
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
