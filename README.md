@@ -31,6 +31,6 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use, mod
 
 ## Contact
 
-If you have any questions or feedback regarding ManageMate-Connect-Tailwind-Powered-Collaboration-Hub, please don't hesitate to contact us at [rajlourdu15@gmail.com](mailto:me@gmail.com).
+If you have any questions or feedback regarding ManageMate-Connect-Tailwind-Powered-Collaboration-Hub, please don't hesitate to contact us at [rajlourdu15@gmail.com](mailto:rajlourdu15@gmail.com).
 
 Thank you for using ManageMate-Connect-Tailwind-Powered-Collaboration-Hub! We hope it enhances your team's productivity and collaboration.
