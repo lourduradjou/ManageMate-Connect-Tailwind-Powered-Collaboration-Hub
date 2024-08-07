@@ -3,14 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://github.com/ManageMate-Connect-Tailwind-Powered-Collaboration-Hub",
   "scripts": {
     "build": "tailwindcss -i ./input.css -o ./css/main.css",
-    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
